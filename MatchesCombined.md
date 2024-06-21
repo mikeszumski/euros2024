@@ -11,8 +11,15 @@ Suggest that this could be our primary source of data for ML.
 
 Additional features to improve the models outcomes:
 
-- add in the Xg for each team
-- clarify the target - should be winning team code or "TIE" perhaps
-- add other rankings data, such as the ELO calculated, and betting odds (new!)
+- added in the xGD for each team that we could get (else 0)
+    RECONSIDER THE VALUE FOR NULLS.  CUZ 0 IS A PRETTY GOOD SCORE.  MAYBE USE ONE LESS THAN WORST SCORE?
+- clarified the target (for now): model will find teams that end in top 4
+- add other rankings data, such as the ELO calculated, and betting odds (added!)
+
+Next up:
+
+- put this into a model.  does the outcome make sense?  should put spain, england, portugal, germany in the top group, or other teams near the top.
+
+- does it work to have data where each team has MULTIPLE ROWS?  <<-- Hmmm
 
 

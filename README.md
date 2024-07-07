@@ -22,20 +22,25 @@ Analyses exposed the difficulty of using past performance to predict future resu
 ## ANLYSIS DETAILS
 
 ### Datasets Analyzed
-The team narrowed its efforts on the collection, transformation, analysis and visualization of daily, county-level data (where available) for the five-year period between 2018 - 2022, focusing on the relationship between extreme events and the following:
+The team collected fundamental data - detailed match results - and combined that with a measure frequently used in soccer statistics - Expected Goals (xG), and betting odds.
 
-__FEMA Datasets__ (extracted via APIs)
-* [Disaster Declaration Summaries for State and Counties (1953 to 2023)](https://www.fema.gov/data-visualization/disaster-declarations-states-and-counties)
-* [Public Assistance Funded Projects (1998 - 2023)](https://www.fema.gov/openfema-data-page/public-assistance-funded-projects-details-v1)
+__International Mens Match Results__
+* [Football - Soccer - UEFA EURO, 1960 - 2024](https://www.kaggle.com/code/mahmoudredagamil/football-soccer-uefa-euro-1960-2024)
 
-__Nationa CDC Datasets__ (ingested datasets downlated from CDC data library)
-* [National Outbreak Reporting (2010 to 2022)](https://wonder.cdc.gov/nndss/nndss_weekly_tables_menu.asp)
-* [Mortality Data for Public Use (2018 to 2023)](https://www.cdc.gov/nchs/nvss/mortality_public_use_data.htm)
+__Expected Goals (xG)__
+* [xG Stats for Football Teams](https://footystats.org/stats/xg)
+
+__Odds__
+* [Euro 2024 Winner Odds - Outright betting](https://www.oddsportal.com/football/europe/euro-2024/outrights/)
+
+
 
 ### Data Analysis Using Python
 The team developed the __filenamehere.ipynb__ python notebook to ingest, explore, transform, visualize and merge the datasets. Once merged, the investigating team analyzed a dataframe consisting of xxxx...
 
 ### Analysis Results
+
+
 __Key Observations__ 
 * Obs 1
 * Obs 2
@@ -59,3 +64,6 @@ Given access to higher fidelity public health data and additional time to explor
 ## Other Acknowledgments
 * Project instruction and requirements provided by [The Artificial Intelligence Boot Camp at UNC Charlotte](https://bootcamp.charlotte.edu/artificial-intelligence/)
 
+## Repo Contents
+* corrected_euro_team_data.csv - Working excel sheet with combined data joined into a single sheet. Unneeded columns removed. 
+* Euro_team_data_revised_v4.ipynb - Data cleanup code.  Reshaped data from matches to teams/matches, add score_differential field, convert match date to datetime, drop unnecessary fields, one-hot encode string fields, 

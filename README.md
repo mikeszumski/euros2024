@@ -52,7 +52,7 @@ Given access to higher fidelity public health data and additional time to explor
 * next steps
 
 ### Project Contributors
-* Kurt Andresson | [GitHub_@kurtadresson](https://github.com/kurtandresson/)
+* Kurt Andresson | [GitHub_@kurtadresson](https://github.com/kurtandreassen)
 * Maggie Rosen | [GitHub_@maggierosen](https://github.com/maggierosen/)
 * Michael Szumski | [GitHub @mikeszumski](https://github.com/mikeszumski/)
 

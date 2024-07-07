@@ -66,4 +66,7 @@ Given access to higher fidelity public health data and additional time to explor
 
 ## Repo Contents
 * corrected_euro_team_data.csv - Working excel sheet with combined data joined into a single sheet. Unneeded columns removed. 
-* Euro_team_data_revised_v4.ipynb - Data cleanup code.  Reshaped data from matches to teams/matches, add score_differential field, convert match date to datetime, drop unnecessary fields, one-hot encode string fields, 
+* Euro_team_data_revised_v4.ipynb - Jupyter notebook containing all elements of the analysis:
+** Data cleanup code
+** Unsupervised machine learning code
+** Supervised machine learning code 

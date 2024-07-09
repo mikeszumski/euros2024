@@ -1,4 +1,4 @@
-# AI BOOTCAMP GROUP PROJECT (Project 2) _DRAFT_
+# AI BOOTCAMP GROUP PROJECT (Project 2)
 This repository shares the source data, examination approach, data analytics script and predictions for the Euro 2024 national teams soccer competition in Germany during the spring/summer of 2024.
 
 ## EXECUTIVE SUMMARY
@@ -33,28 +33,18 @@ __Expected Goals (xG)__
 __Odds__
 * [Euro 2024 Winner Odds - Outright betting](https://www.oddsportal.com/football/europe/euro-2024/outrights/)
 
-
-
 ### Data Analysis Using Python
 The team developed the __filenamehere.ipynb__ python notebook to ingest, explore, transform, visualize and merge the datasets. Once merged, the investigating team analyzed a dataframe consisting of xxxx...
 
-### Analysis Results
-
-
-__Key Observations__ 
-* Obs 1
-* Obs 2
-
-__Key Analysis Findings__
-* finding 1
-* finding 2
-
 ### Conclusion
-write conclusion here
+Best feature in our models for predicting the winners, are team odds.  These were collected from betting sites, and we in effect confirmed that they're a good indicator of success.  
+Using past performance to predict future success in mens soccer is a difficult business as our work with the models showed.  Good for the game that outcome is subject to many many factors, but difficult for those of us who try to pick winners.
 
-Given access to higher fidelity public health data and additional time to explore more public data, the investigating team may have opted to explore the following areas:
-* next steps
-* next steps
+Given access to higher fidelity player and team data and additional time to explore more data data, the investigating team may have opted to explore the following areas:
+- Reshape the data to take a view of each team involved by summarizing match level data
+- Rebuild the model to treat a team as a collection of individuals and collect information about the individual team members, either starters, or both starters and substitutes.
+- Include additional features, such as manager experience, days since last match, some measure of player health, and referee.
+- Incorporate additional teams performance data from the tournament itself, as each game is played.
 
 ### Project Contributors
 * Kurt Andresson | [GitHub_@kurtadresson](https://github.com/kurtandreassen)
@@ -62,12 +52,13 @@ Given access to higher fidelity public health data and additional time to explor
 * Michael Szumski | [GitHub @mikeszumski](https://github.com/mikeszumski/)
 
 ## Other Acknowledgments
-* Project instruction and requirements provided by [The Artificial Intelligence Boot Camp at UNC Charlotte](https://bootcamp.charlotte.edu/artificial-intelligence/)
+* Project instruction and requirements provided by [The Artificial Intelligence Boot Camp at UNC-Chapel Hill](https://bootcamp.unc.edu/artificial-intelligence/)
 
 ## Repo Contents
 * corrected_euro_team_data.csv - Working excel sheet with combined data joined into a single sheet. Unneeded columns removed. 
-* Euro_team_data_revised_v4.ipynb - Jupyter notebook containing all elements of the analysis:
+* Euro_team_data_revised_v5.ipynb - Jupyter notebook containing all elements of the analysis:
 
 1. Data cleanup code
 2. Unsupervised machine learning code
-3. Supervised machine learning code 
+3. Supervised machine learning code
+4. Predictions 

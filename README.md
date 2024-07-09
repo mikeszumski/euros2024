@@ -52,7 +52,7 @@ Given access to higher fidelity player and team data and additional time to expl
 * Michael Szumski | [GitHub @mikeszumski](https://github.com/mikeszumski/)
 
 ## Other Acknowledgments
-* Project instruction and requirements provided by [The Artificial Intelligence Boot Camp at UNC Charlotte](https://bootcamp.charlotte.edu/artificial-intelligence/)
+* Project instruction and requirements provided by [The Artificial Intelligence Boot Camp at UNC-Chapel Hill](https://bootcamp.unc.edu/artificial-intelligence/)
 
 ## Repo Contents
 * corrected_euro_team_data.csv - Working excel sheet with combined data joined into a single sheet. Unneeded columns removed. 

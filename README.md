@@ -25,7 +25,7 @@ Analyses exposed the difficulty of using past performance to predict future resu
 The team collected fundamental data - detailed match results - and combined that with a measure frequently used in soccer statistics - Expected Goals (xG), and betting odds.
 
 __International Mens Match Results__
-* [Football - Soccer - UEFA EURO, 1960 - 2024](https://www.kaggle.com/code/mahmoudredagamil/football-soccer-uefa-euro-1960-2024)
+* [International football results from 1872 to 2024](https://www.kaggle.com/datasets/martj42/international-football-results-from-1872-to-2017?resource=download)
 
 __Expected Goals (xG)__
 * [xG Stats for Football Teams](https://footystats.org/stats/xg)

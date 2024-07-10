@@ -55,7 +55,7 @@ Given access to higher fidelity player and team data and additional time to expl
 * Project instruction and requirements provided by [The Artificial Intelligence Boot Camp at UNC-Chapel Hill](https://bootcamp.unc.edu/artificial-intelligence/)
 
 ## Repo Contents
-* corrected_euro_team_data.csv - Working excel sheet with combined data joined into a single sheet. Unneeded columns removed. 
+* corrected_euro_team_data.csv - Cleaned data for the machine learning models.
 * Euro_team_data_revised_v6.1.ipynb - Jupyter notebook containing all elements of the analysis:
 
 1. Data cleanup code

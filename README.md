@@ -56,7 +56,7 @@ Given access to higher fidelity player and team data and additional time to expl
 
 ## Repo Contents
 * corrected_euro_team_data.csv - Working excel sheet with combined data joined into a single sheet. Unneeded columns removed. 
-* Euro_team_data_revised_v5.ipynb - Jupyter notebook containing all elements of the analysis:
+* Euro_team_data_revised_v6.1.ipynb - Jupyter notebook containing all elements of the analysis:
 
 1. Data cleanup code
 2. Unsupervised machine learning code
